@@ -5,6 +5,8 @@ import NutritionAdvisor from "./components/nutrition-advisor";
 import { Trash2, TrendingUp, UserCircle2 } from "lucide-react";
 import ClientModalWrapper from "./components/client-modal-wrapper";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const entries = await getEntries();
   const userProfile = await getUserProfile();
