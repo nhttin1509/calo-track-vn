@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calo Track VN
 
-## Getting Started
+**Calo Track VN** là ứng dụng web cá nhân giúp bạn theo dõi lượng calo nạp vào hàng ngày một cách đơn giản và thông minh. Sử dụng sức mạnh của AI, ứng dụng hỗ trợ ước tính dinh dưỡng từ hình ảnh và giúp bạn duy trì lối sống lành mạnh.
 
-First, run the development server:
+## Tính Năng Chính
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   **Theo Dõi Calo Hàng Ngày:** Ghi lại nhật ký ăn uống dễ dàng.
+*   **Trợ Lý AI Thông Minh:** Tích hợp Gemini/GPT để ước tính calo từ mô tả món ăn hoặc hình ảnh.
+*   **Nhập Liệu Đa Dạng:** Hỗ trợ nhập thủ công hoặc tải lên ảnh nhãn dinh dưỡng/món ăn.
+*   **Giao Diện Thân Thiện:** Thiết kế hiện đại, dễ sử dụng trên cả máy tính và điện thoại.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Công Nghệ Sử Dụng
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   [Next.js 16](https://nextjs.org/) (App Router)
+*   [React 19](https://react.dev/)
+*   [Tailwind CSS 4](https://tailwindcss.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Bắt Đầu
 
-## Learn More
+Để chạy dự án trên máy cục bộ của bạn:
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Yêu cầu:** Đảm bảo bạn đã cài đặt Node.js.
+2.  **Cài đặt các gói phụ thuộc:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm install
+    # hoặc
+    yarn install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Chạy server phát triển:**
 
-## Deploy on Vercel
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4.  Mở [http://localhost:3000](http://localhost:3000) trên trình duyệt để xem ứng dụng.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tìm Hiểu Thêm
+
+*   [Tài liệu Next.js](https://nextjs.org/docs) - tìm hiểu chi tiết về các tính năng của Next.js.
+*   [Học Next.js](https://nextjs.org/learn) - hướng dẫn tương tác.
+# calo-track-vn
